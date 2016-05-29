@@ -58,6 +58,9 @@ node default {
   include hub
   include nginx
   include python
+  include virtualbox
+  include zsh
+  include docker
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
