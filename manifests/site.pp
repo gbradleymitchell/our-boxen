@@ -85,7 +85,7 @@ node default {
 
   # some more personal additions
   include python
-  incude sourcetree
+  include sourcetree
   include iterm2
 
   file { "${boxen::config::srcdir}/our-boxen":
