@@ -83,6 +83,9 @@ node default {
     ]:
   }
 
+  # some more personal additions
+  include python
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
