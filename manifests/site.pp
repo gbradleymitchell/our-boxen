@@ -88,6 +88,7 @@ node default {
   include sourcetree
   include iterm2::stable
   include iterm2::colors::solarized_light
+  include atom
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
