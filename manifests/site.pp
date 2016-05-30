@@ -87,6 +87,7 @@ node default {
   include python
   include sourcetree
   include iterm2::stable
+  include iterm2::colors::solarized_light
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
